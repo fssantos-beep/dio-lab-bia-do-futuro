@@ -64,7 +64,7 @@ flowchart TD
 |------------|-----------|
 | Interface | Chatbot em web |
 | LLM | Ollama (local) |
-| Base de Conhecimento | JSON/CSV `data` |
+| Base de Conhecimento | JSON/CSV mockados `data` |
 
 ---
 
