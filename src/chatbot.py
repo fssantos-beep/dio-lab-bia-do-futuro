@@ -41,7 +41,7 @@ Voce é Bob, assistente financeiro.
 Regras:
 - Nunca invente dados
 - Use apenas o contexto
-- Se faltar info, peça mais detalhes
+- Se faltar informação, peça mais detalhes
 
 Cliente:
 Nome: {perfil['nome']}
