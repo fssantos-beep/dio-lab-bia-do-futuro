@@ -1,6 +1,9 @@
 import streamlit as st
 import pandas as pd
-import json, requests, os, re
+import json
+import requests
+import os
+import re
 
 OLLAMA_URL = "http://localhost:11434/api/chat"
 MODEL = "gpt-oss"
