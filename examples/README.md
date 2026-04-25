@@ -1,20 +1,22 @@
-# Exemplos e Referências
+# Passo a passo para execução
 
-Esta pasta contém exemplos de implementação para cada etapa do desafio.
+## Setup Ollama
 
-## Vídeos de Referência
+```bash
+#1 Baixe o Ollama
 
-> 🎬 Em breve serão disponibilizados vídeos demonstrando a implementação completa de cada etapa, com foco no raciocínio por trás de cada decisão.
+#2 Baixe o modelo gpt-oss pelo cmd usando
+ollama pull gpt-oss
+```
+# Como rodar
 
-| Etapa | Descrição | Link |
-|-------|-----------|------|
-| Documentação | Como definir o caso de uso e arquitetura | [em breve] |
-| Base de Conhecimento | Como usar os dados mockados | [em breve] |
-| Prompts | Como criar prompts eficazes | [em breve] |
-| Aplicação | Como criar o chatbot funcional | [em breve] |
-| Métricas | Como avaliar seu agente | [em breve] |
-| Pitch | Como apresentar sua solução | [em breve] |
+## Instale as dependencias
 
-## Exemplo de Implementação Simples
+```bash
+#3 pip install streamlit pandas requests
 
-Confira na pasta `src/` um exemplo básico de estrutura de aplicação usando Streamlit.
+#4 Certifique se de o Ollama está aberto
+
+#5 Escreva no terminal do chatbot
+py -m streamlit run chatbot.py
+```
